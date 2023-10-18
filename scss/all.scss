@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/functions";
-@import './_helpers/variables';
-@import './_helpers/utilities';
+@import "./helpers/variables";
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import './helpers/utilities';

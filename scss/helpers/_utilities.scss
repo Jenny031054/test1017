@@ -681,7 +681,6 @@ $utilities: map-merge(
         10: .1,
         25: .25,
         50: .5,
-        60: .6,
         75: .75,
         100: 1
       )
@@ -802,26 +801,13 @@ $utilities: map-merge(
       values: $zindex-levels,
     ),
     // scss-docs-end utils-zindex
-    "background-size" : (
+    "background-size":(
       property: background-size,
-      class: bg-size,
+      class: bg-s,
       values: (
         cover: cover,
-        contain: contain,
-        50: 50%,
-      ),
+      )
     ),
-    "background-position" :(
-      property: background-position,
-      class:bg-p,
-      values: (
-        center: center center,
-
-      ),
-    ),
-    
-    
   ),
   $utilities
-  
 );
